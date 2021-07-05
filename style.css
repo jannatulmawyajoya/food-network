@@ -43,5 +43,47 @@ h1{
 .about-me-bg-img{
     background-image: url(images/about-me-bg.jpg);
     background-repeat: no-repeat;
+}
+#recipies-textstyle{
+    text-align: center;
+}
+.first-recipie-width{
+    width: 33%;
+    padding: 10px;
+    border-radius: 20px;
+    margin: 50px;
+    box-shadow: 10px 5px 30px gray;
+    
+}
+.second-recipie-width{
+    width: 33%;
+    padding: 10px;
+    border-radius: 20px;
+    margin: 50px;
+    box-shadow: 10px 5px 30px gray;
+    
+}
+.third-recipie-width{
+    width: 33%;
+    padding: 10px;
+    border-radius: 20px;
+    margin: 50px;
+    box-shadow: 10px 5px 30px gray;
+}
+.first-recipie-width img{
+    width: 100%;
+}
+.second-recipie-width img{
+    width: 100%;
 
+} 
+.third-recipie-width img{
+    width: 100%;
+
+} 
+footer{
+    background-color: black;
+    color: gray;
+    text-align: center;
+    padding: 50px;
 }
