@@ -6,6 +6,8 @@ body{
 .flex-display{
     width: 100%;
     display: flex;
+}
+.intro-bg-img{
     background-image: url(images/bg1.png);
     background-repeat: no-repeat;
 }
@@ -33,4 +35,13 @@ h1{
     border-radius: 50px;
     text-decoration: none;
     box-shadow: 10px 5px 5px gray;
+}
+#about-me-img-width{
+    width: 70%;
+    padding-left: 80px;
+}
+.about-me-bg-img{
+    background-image: url(images/about-me-bg.jpg);
+    background-repeat: no-repeat;
+
 }
