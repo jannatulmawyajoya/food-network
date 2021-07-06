@@ -6,7 +6,7 @@ body{
 .flex-display{
     width: 100%;
     display: flex;
-    margin-bottom: 0px;
+    
 }
 h1{
     font-weight: 700;
@@ -135,4 +135,15 @@ footer{
     width: 100%;
 }
 
-
+.dishes-bg{
+    background-image: url(images/bg1.png);
+    background-repeat: no-repeat;
+}
+.dish-item{
+    border-left: 5px solid;
+    border-bottom: 5px solid;
+    margin: 30px;
+    padding: 70px;
+    border-image: linear-gradient( orange,tomato);
+    border-image-slice: 1;
+}
