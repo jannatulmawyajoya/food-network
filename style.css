@@ -6,8 +6,8 @@ body{
 .flex-display{
     width: 100%;
     display: flex;
+    margin-bottom: 0px;
 }
-
 h1{
     font-weight: 700;
     font-size: 45px;
@@ -20,10 +20,9 @@ h1{
     padding: 100px;
     margin-left: 10px;
     margin-right: 10px;
-    vertical-align: middle;
 }
 .half-width img{
-    width: 100%;   
+    width: 100%; 
 }
 .orange-color{
     color: orange;
@@ -45,8 +44,13 @@ h1{
     background-image: url(images/bg1.png);
     background-repeat: no-repeat;
 }
+section{
+    margin-top: 10px;
+    
+}
 #recipies-textstyle{
     text-align: center;
+    
 }
 .first-recipie-width{
     width: 33%;
@@ -86,7 +90,7 @@ footer{
     text-align: center;
     padding: 50px;
 }
-.dinner-item-one{
+.book-item-one{
     width: 25%;
     border: 2px solid teal;
     border-radius: 5px;
@@ -94,10 +98,10 @@ footer{
     margin: 30px;
     box-shadow: 10px -10px rgba(78, 124, 124, 0.815);
 }
-.dinner-item-one img{
+.book-item-one img{
     width: 100%;
 }
-.dinner-item-two{
+.book-item-two{
     width: 25%;
     border: 2px solid teal;
     border-radius: 5px;
@@ -105,10 +109,10 @@ footer{
     margin: 30px;
     box-shadow: 10px -10px rgba(78, 124, 124, 0.815);
 }
-.dinner-item-two img{
+.book-item-two img{
     width: 100%;
 }
-.dinner-item-three{
+.book-item-three{
      width: 25%;
      border: 2px solid teal;
     border-radius: 5px;
@@ -116,10 +120,10 @@ footer{
     margin: 30px;
     box-shadow: 10px -10px rgba(78, 124, 124, 0.815);
 }
-.dinner-item-three img{
+.book-item-three img{
     width: 100%;
 }
-.dinner-item-four{
+.book-item-four{
     width: 25%;
     border: 2px solid teal;
     border-radius: 5px;
@@ -127,7 +131,7 @@ footer{
     margin: 30px;
     box-shadow: 10px -10px rgba(78, 124, 124, 0.815);
 }
-.dinner-item-four img{
+.book-item-four img{
     width: 100%;
 }
 
